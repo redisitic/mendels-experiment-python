@@ -1,6 +1,6 @@
 import random
 
-n = 1000 #Samplesize
+n = 10000 #Samplesize
 
 seed_color_alleles = ["Y", "y"] #Y is Yellow and y is Green
 seed_texture_alleles = ["R", "r"] #R is round and r is wrinkled
@@ -10,11 +10,26 @@ seed_texture_alleles = ["R", "r"] #R is round and r is wrinkled
 parent1_g1 = ["Y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 parent1_g2 = ["y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 
-parent2_g1 = ["Y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
+parent2_g1 = ["Y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 parent2_g2 = ["y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 
 parent1 = [parent1_g1, parent1_g2]
 parent2 = [parent2_g1, parent2_g2]
+
+#Uncomment this and comment line(10-17) to get the results of a 2nd Gen Punnett Square.
+
+"""parent1_g1 = ["Y", "R"] 
+parent1_g2 = ["y", "r"]
+parent1_g3 = ["Y", "r"]
+parent1_g4 = ["y", "R"]
+
+parent2_g1 = ["Y", "R"] 
+parent2_g2 = ["y", "r"]
+parent2_g3 = ["Y", "r"]
+parent2_g4 = ["y", "R"]
+
+parent1 = [parent1_g1, parent1_g2, parent1_g3, parent1_g4]
+parent2 = [parent2_g1, parent2_g2, parent2_g3, parent2_g4]"""
 
 yellow_round = 0
 yellow_wrinkled = 0
