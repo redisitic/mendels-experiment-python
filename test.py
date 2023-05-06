@@ -9,17 +9,12 @@ seed_texture_alleles = ["R", "r"] #R is round and r is wrinkled
 #For now edit this to change the parents' genotypes
 parent1_g1 = ["Y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 parent1_g2 = ["y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
-parent1_g3 = ["Y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
-parent1_g4 = ["y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 
 parent2_g1 = ["Y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 parent2_g2 = ["y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
-parent2_g3 = ["Y", "r"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
-parent2_g4 = ["y", "R"] #[random.choice(seed_color_alleles), random.choice(seed_texture_alleles)]
 
-
-parent1 = [parent1_g1, parent1_g2, parent1_g3, parent1_g4]
-parent2 = [parent2_g1, parent2_g2, parent2_g3, parent2_g4]
+parent1 = [parent1_g1, parent1_g2]
+parent2 = [parent2_g1, parent2_g2]
 
 yellow_round = 0
 yellow_wrinkled = 0
