@@ -1,10 +1,10 @@
 from tkinter import *
-from test import mendel 
+from test2 import mendel 
 
 root = Tk()
-root.title("TITLE")
+root.title("Mendel's experiment")
 
-myLabel = Label(root, text="Hello World!")
+myLabel = Label(root, text="")
 
 options = {
         "Yellow Round": ['Y', 'R'],
@@ -68,4 +68,3 @@ myLabel.pack()
 input_button.pack()
 
 root.mainloop()
-
