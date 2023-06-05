@@ -44,4 +44,3 @@ if __name__ == "__main__":
     parent2 = [parent2_g1, parent2_g2]
     
     print(mendel(parent1, parent2))
-    
